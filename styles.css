@@ -98,6 +98,33 @@ h3 {
     color: var(--primary-color);
 }
 
+/* NOVAS CLASSES PARA EXPERIÊNCIA PROFISSIONAL */
+.experience-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 3px solid var(--primary-color);
+    background-color: #f9f9f9;
+}
+
+.experience-title {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.experience-company {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.experience-period {
+    color: #666;
+    font-style: italic;
+}
+
+.experience-description {
+    margin-top: 8px;
+}
+
 @media print {
     body {
         padding: 20px;
@@ -105,7 +132,6 @@ h3 {
     
     .certification-table th {
         background-color: var(--secondary-color) !important;
-        
     }
 }
 
