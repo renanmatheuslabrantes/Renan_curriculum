@@ -148,4 +148,13 @@ h3 {
     .skill-item {
         font-size: 0.8em;
     }
+    
+    .experience-item {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .experience-description {
+        font-size: 0.9em;
+    }
 }
